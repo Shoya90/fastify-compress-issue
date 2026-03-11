@@ -1,0 +1,26 @@
+{
+  "name": "fastify-compress-issue",
+  "version": "1.0.0",
+  "description": "A repo to the code that reproduces the premature close bug",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "reproduce": "node reproduce.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shoya90/fastify-compress-issue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Shoya90/fastify-compress-issue/issues"
+  },
+  "homepage": "https://github.com/Shoya90/fastify-compress-issue#readme",
+  "dependencies": {
+    "@fastify/compress": "^8.3.1",
+    "fastify": "^5.3.2"
+  }
+}
